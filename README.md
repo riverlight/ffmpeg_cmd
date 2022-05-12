@@ -9,3 +9,5 @@
 `
 -> ffmpeg -f rawvideo -framerate 25 -video_size 3840x1600 -pix_fmt yuv420p -i ./4k_src\eternals_3840x1600.yuv -vf scale=iw*0.5:-1 -sws_flags bicubic -y -vcodec h264 -crf 18 ./4k_src\eternals_1920x800.mp4
 `
+#### 把 rgb24 raw 文件转成 png
+-> ffmpeg -f rawvideo -video_size 128*128 -pixel_format rgb24 -i t1.enc -y t1.png
