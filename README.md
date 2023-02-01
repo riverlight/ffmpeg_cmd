@@ -36,5 +36,5 @@
 
 #### 观看 bayer 16bit 数据
 `
--> ffplay -f rawvideo -pix_fmt bayer_bggr16le -s 1920x1080 D:\workroom_lx\testroom\AFBC\CC_TL84_1920x1080_16bit.bayer
+-> ffplay -f rawvideo -pix_fmt bayer_bggr16le -s 1920x1080 CC_TL84_1920x1080_16bit.bayer
 `
